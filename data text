@@ -19,3 +19,47 @@
 <td>Gyro X               </td><td>4.66      </td>
 <td>Gyro Y               </td><td>0.01      </td>
 <td>Gyro Z               </td><td>-0.4      </td>
+
+"seconds"    
+"latitude"   
+"longitude"  
+"gpsAltitude"
+"bmpAltitude"
+"bmpPressure"
+"bmpTemp"    
+"digTemp"    
+"cssTemp"    
+"csseCO2"    
+"cssTVOC"    
+"UV"      
+"accelX"    
+"accelY"     
+"accelZ"     
+"magnetX"    
+"magnetY"    
+"magnetZ"    
+"gyroX"     
+"gyroY"      
+"gyroZ"      
+
+time
+latitude
+longitude
+gps_altitude
+bmp_altitude
+bmp_pressure
+bmp_temp
+dig_temp
+css_temp
+css_eCO2
+css_TVOC
+UV
+accelX
+accelY
+accelZ
+magnetX
+magnetY
+magnetZ
+gyroX
+gyroY
+gyroZ
