@@ -13,6 +13,7 @@
     <script src="code.js"></script>
     <script src="dataLoader.js"></script>
     <script src="launchDataDis.js"></script>
+    <link rel="stylesheet" href="style.css">
     <script>
         var theTime = new Date();
         var tempTime = new Date();
@@ -29,14 +30,14 @@
     <!-- i want it pink -->
     <style>
         body {
-            background-color: rgb(202,101,202);
+            background-image: linear-gradient(270deg,pink,rgb(202,101,202))
         }
     </style>
 </head>
 
 <body>
     <table>
-        <td><img src="UATspaceLogo-1.jpg"></td>
+        <td><marquee scrollamount="30" direction="down"><img src="UATspaceLogo-1.jpg"></marquee></td>
         <td><h1>UAT SPACE PROGRAM</h1></td>
     </table>
 
@@ -73,8 +74,9 @@
     <br>
     <div id = "timeStamp">(press start to begin reading data)</div>
     <br>
-    <marquee scrollamount="15" direction="left" ><h2>UAT SPACE PROGRAM OPERATOR LOG IN</h2></marquee>
-    <marquee scrollamount="15" direction="right"><h2>UAT SPACE PROGRAM YOU HAVE LOGGED IN</h2></marquee>
+    <marquee scrollamount="15" direction="left" ><h2>UAT IN SPACE WOO HOO YES! SPACE WOOHOO YES! UAT YAY YES! UAT YES UAT IN SPACE WOO HOO YES! WOOHOO SPACE WOO HOO YES! UAT IN SPACE WOO HOO YES!</h2></marquee>
+    <marquee scrollamount="15" direction="right"><h2>SPACE WOOHOO YES! UAT YAY UAT IN SPACE WOO HOO YES! UAT IN SPACE WOO HOO YES! SPACE WOOHOO YES! UAT YAY UAT YAY YES! UAT YES UAT IN SPACE YES!</h2></marquee>
+    
 
     <button id="startButton" onclick = "startReadings();">
         Start
